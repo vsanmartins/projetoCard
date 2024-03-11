@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(9, 36, 59);
+}
+main{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+img {
+    border-radius: 50%;
+    width: 120px;
+}
+img:hover{
+    transform: scale(1.2);
+    transition: 1.5s;
+    cursor: pointer;
+}
+.card{
+    min-width: 200px;
+    max-width: 250px;
+    background-color: rgb(12, 80, 136);
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 12px;
+    border-radius: 8px;
+    color:antiquewhite;
+    
+}
+a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+svg{
+    width: auto;
+    height: 30px;
+}
+svg:hover{
+    transform: scale(1.3);
+    transition: .3s;
+
+}
+footer{
+    display: flex;
+    gap: 16px;
+}
+h4{
+    color: antiquewhite;
+}
+
+
